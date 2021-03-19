@@ -1,3 +1,3 @@
-basic.forever(function () {
-	
+input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+    serial.writeLine("pressed")
 })
